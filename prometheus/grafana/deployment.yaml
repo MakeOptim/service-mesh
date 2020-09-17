@@ -48,9 +48,9 @@ spec:
               protocol: TCP
           env:
             - name: "GF_SECURITY_ADMIN_PASSWORD"
-              value: "admin"
-            - name: "GF_SECURITY_ADMIN_USER"
               value: "admin123"
+            - name: "GF_SECURITY_ADMIN_USER"
+              value: "admin"
           livenessProbe:
             failureThreshold: 10
             httpGet:
